@@ -1,3 +1,5 @@
 tmp
 *-data
 .ipynb_checkpoints
+*.pth
+
