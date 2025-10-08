@@ -58,4 +58,3 @@ def train_bad(model, optimizer, loss_fn, train_loader, val_loader, epochs=20, de
       num_examples += correct.shape[0]
     print("Epoch {}, accuracy={:.2f}".format(epoch, num_correct/num_examples))
 train(model, optimizer, criterion, train_data_loader, train_data_loader, epochs=10)
-# -------------------------------------------------------------------------------------------
