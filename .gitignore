@@ -5,3 +5,4 @@ tmp
 *.pt
 libtorch
 build
+data/
